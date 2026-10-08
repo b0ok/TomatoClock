@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-feature-settings: "tnum" 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Visible Scrollbar for Focus Sounds Horizontal Track */
+.focus-sounds-scroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #71717a transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+.focus-sounds-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.focus-sounds-scroll::-webkit-scrollbar-track {
+  background: rgba(113, 113, 122, 0.15);
+  border-radius: 9999px;
+  margin: 0 4px;
+}
+
+.focus-sounds-scroll::-webkit-scrollbar-thumb {
+  background: #71717a;
+  border-radius: 9999px;
+  transition: background-color 0.2s ease;
+}
+
+.focus-sounds-scroll::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
+

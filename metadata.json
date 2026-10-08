@@ -1,0 +1,6 @@
+{
+  "name": "Pomodoro Timer",
+  "description": "An ADHD-optimized productivity and Pomodoro timer featuring brown noise sensory soundscapes, single-task focus, micro-step task decomposition, and a distraction parking lot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
